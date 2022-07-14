@@ -14,7 +14,7 @@ class Renamer:
     def modify_bulk(self):
         for path, folders, files in os.walk(self.path):
             for new_file in files:
-                if new_file == "modifier.py":
+                if new_file == "renamer.py":
                     continue
                 file = os.path.join(path, new_file)
                 self.renamer(file)
