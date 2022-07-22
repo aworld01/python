@@ -7,8 +7,10 @@ class Computer:
 # Computer.config("comp2")
 
 """example-2"""
-comp1 = Computer()
+"""creating instance"""
+comp1 = Computer() #instance
 comp2 = Computer()
 
+"""calling methods"""
 comp1.config()
 comp2.config()
